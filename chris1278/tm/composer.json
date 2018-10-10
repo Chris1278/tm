@@ -1,0 +1,32 @@
+{
+	"name": "chris1278/tm",
+	"type": "phpbb-extension",
+	"description": "Fügt eine Fussnote ein die Frei Wählbar ist. Anzupassen in den Sprachdateien der Extension",
+	"homepage": "https://www.phpbb.de/community/viewtopic.php?f=149&t=242009",
+	"version": "1.0.0",
+	"time": "2018-09-17",
+	"license": "GPL-2.0",
+	"authors": [{
+			"name": "Christian Esch aka Chris1278",
+			"email": "smilie-man@gmx.de",
+			"homepage": "https://www.phpbb.de/community/memberlist.php?mode=viewprofile&u=87861",
+			"role": "Lead Developer"
+		}
+		],
+	"require": {
+		"php": ">=5.3.9"
+	},
+	"extra": {
+		"display-name": "Fussnote in der Overall Footer",
+		"soft-require": {
+			"phpbb/phpbb": " >=3.1.5,<3.2@dev"
+		},
+	 "version-check": {
+         "host": "raw.githubusercontent.com",
+         "directory": "/Chris1278/bridge/master",
+         "filename": "bridge.json",
+         "ssl": true
+		}
+		
+	}
+}

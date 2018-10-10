@@ -1,0 +1,9 @@
+services:
+    chris1278.tm.listener:
+        class: chris1278\tm\event\listener
+        arguments:
+            - '%core.root_path%'
+            - '@user'
+            - '@template'
+        tags:
+            - { name: event.listener }
