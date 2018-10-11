@@ -1,3 +1,4 @@
 .gitattributes	export-ignore
 /tmark.json	export-ignore
 /README.md	export-ignore
+/tm.jpg export-ignore
